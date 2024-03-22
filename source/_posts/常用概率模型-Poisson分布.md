@@ -12,7 +12,7 @@ mathjax: true
 
 ### 问题0
 
-假设你管理着一个小型的呼叫中心。经过长时间的记录，你[^2]发现该中心平均每小时接到10个电话。使用泊松分布，我们想计算在下一个小时内接到不同数量电话的概率。
+假设你管理着一个小型的呼叫中心。经过长时间的记录，你发现该中心平均每小时接到10个电话。使用泊松分布，我们想计算在下一个小时内接到不同数量电话的概率。
 
 > 在解决问题0前，你需要意识到数学领域里的两个重要概念[^1]
 >
@@ -21,7 +21,16 @@ mathjax: true
 
 [泊松分布的推导](https://zhuanlan.zhihu.com/p/26263743)
 
+二项分布进化至Possion分布的关键步骤如下：
+
+$\begin{equation}\label{eq:stand} =\frac{n!}{(n-k)!\times k!}\times(\frac{\lambda}{n})^{k}(1-\frac{\lambda}{n})^{n-k}\end{equation}$
+
+$\begin{equation}\label{eq:step 2} =\frac{n(n-1)(n-2)\ldots(n-k+1)}{n^k}\lambda^k\frac{1}{k!}(1-\frac{\lambda}{n})^{n-k}\end{equation}$
+
+$\begin{equation}\label{eq:save}
+ =\frac{n!}{(n-k)!\times k!}\times\left(\frac{\lambda}{n}\right)^{k}\left(1-\frac{\lambda}{n}\right)^{n-k}
+\end{equation}$
+
 Possion分布是二项分布模型在n趋近于无穷时的衍生
 
 [^1]:我是怎么发现的：{% post_link 常用概率模型-Poisson分布-碰到的问题 %}
-
