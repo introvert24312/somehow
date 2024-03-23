@@ -21,9 +21,9 @@ mathjax: true
 
 [泊松分布的推导](https://zhuanlan.zhihu.com/p/26263743)
 
-二项分布[^2]进化至Possion分布的关键步骤如下：
+二项分布[^2]进化至Poisson分布的关键步骤如下：
 
-`二项分布进化至possion分布的过程"X"`
+`二项分布进化至Poisson分布的过程"X"`
 
 >$\begin{equation}\label{eq:1} =\frac{n!}{(n-k)!\times k!}\times(\frac{\lambda}{n})^{k}(1-\frac{\lambda}{n})^{n-k}\end{equation}$
 >
@@ -55,25 +55,25 @@ mathjax: true
 
 从公式推导中我们可知：
 
-1. 从公式\ref{4}中得知，Possion分布是二项分布以事件数趋近于无穷为背景的一个二级定理，若背景失效，Possion分布的最终公式将无法使用
-2. 从公式\ref{5}可知，若某段时间的事件发生数$\lambda$相对于$n$不再渺小，Possion分布的最终公式依旧无法使用,
+1. 从公式\ref{4}中得知，Poisson分布是二项分布以事件数趋近于无穷为背景的一个二级定理，若背景失效，Poisson分布的最终公式将无法使用
+2. 从公式\ref{5}可知，若某段时间的事件发生数$\lambda$相对于$n$不再渺小，Poisson分布的最终公式依旧无法使用,
 3. 从公式\ref{6}可知，若n不趋近于无穷，就无法套用$e^x$的定义对公式进行进行，若你想推测事件数k较大，这个公式同样不适用
 
 
 
 
-`因此，Possion分布的适用条件`
+`因此，Poisson分布的适用条件`
 
-1. Possion分布是二项分布模型在n趋近于无穷时的衍生
+1. Poisson分布是二项分布模型在n趋近于无穷时的衍生
 
 2. Pission分布是二项分布模型在事件发生概率相对于无穷的事件发生数趋近于0时的进化
 
 `总结`
 
-  <mark>Possion分布时二项分布小概率无穷次的进化</mark>
+  <mark>Poisson分布时二项分布小概率无穷次的进化</mark>
 
 ### 问题0回溯
-将呼叫中心接电话的情况视作Possion分布，模型参数$\lambda=10$
+将呼叫中心接电话的情况视作Poisson分布，模型参数$\lambda=10$
 
 模型解雇：$=\frac{10^ke^{-10}}{k!}$，其中k为事件推测发生数
 
