@@ -6,6 +6,12 @@ categories: 卫生统计学
 mathjax: true
 ---
 
+## 结论
+
+$\begin{equation}\label{0}
+P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}
+\end{equation}$
+
 ## 引入
 
 让我们通过一个具体的问题来深入理解泊松分布：
@@ -71,6 +77,8 @@ mathjax: true
 `总结`
 
   <mark>Poisson分布时二项分布小概率无穷次的进化</mark>
+
+额外性质：Poisson分布的总体均值等于总体方差，这基于数学的推导
 
 ### 问题0回溯
 将呼叫中心接电话的情况视作Poisson分布，模型参数$\lambda=10$
