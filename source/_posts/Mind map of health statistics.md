@@ -8,6 +8,7 @@ mathjax: true
 
 ```mermaid
 graph TD;
+subgraph 分布类型
 0[Binomial Distribution]-->|事件的结果>2|00[多项分布]
 
 0-->|当n趋近无穷,p较小|1[Possion分布]
@@ -15,10 +16,21 @@ graph TD;
 2[Normal Distribution];
 
 2-->21[but i don't how]
-
+end
+subgraph 参数估计基础
+抽样误差
+end
 click 0 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 00 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 1 "https://ysz.asia/2024/03/16/Poisson%20Distribution/"
 click 2 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
+```
+
+```mermaid
+graph TD;
+subgraph 参数估计基础
+抽样误差
+end
+
 ```
 
