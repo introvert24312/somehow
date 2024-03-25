@@ -192,4 +192,3 @@ $ \left( \frac{f(x)}{g(x)} \right)' = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}
 $\frac d{dx}w(u(x))=w'(u(x))u'(x)$
 
 
-

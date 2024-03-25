@@ -8,13 +8,13 @@ mathjax: true
 
 ```mermaid
 graph TD;
-0[二项分布]-->00[多项分布];
-0[二项分布]-->1[Possion分布];
+0[二项分布]-->|事件的结果>2|00[多项分布];
+0[二项分布]-->|当n趋近无穷，p较小|1[Possion分布];
+0[二项分布]-->|np'1−p'>10|2[Normal Distribution];
 
 click 0 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 00 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 1 "https://ysz.asia/2024/03/16/Poisson%20Distribution/"
-
+click 2 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
 ```
-
 
