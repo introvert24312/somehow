@@ -10,7 +10,7 @@ mathjax: true
 graph TD;
 0[Binomial Distribution]-->|事件的结果>2|00[多项分布]
 
-0-->|当n趋近无穷，p较小|1[Possion分布]
+0-->|当n趋近无穷,p较小|1[Possion分布]
 
 2[Normal Distribution];
 
