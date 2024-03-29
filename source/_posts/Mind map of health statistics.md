@@ -17,9 +17,7 @@ subgraph 分布类型
 
 2-->21[but i don't how]
 end
-subgraph 参数估计基础
-抽样误差
-end
+
 click 0 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 00 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 1 "https://ysz.asia/2024/03/16/Poisson%20Distribution/"
@@ -28,8 +26,10 @@ click 2 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
 
 ```mermaid
 graph TD;
-subgraph 参数估计基础
-抽样误差
+subgraph 统计推断
+1[参数估计]-->点估计
+1-->区间估计
+假设检验
 end
 
 ```
