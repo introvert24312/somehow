@@ -24,6 +24,7 @@ click 00 "https://ysz.asia/2024/03/14/Binomial%20Distribution/"
 click 1 "https://ysz.asia/2024/03/16/Poisson%20Distribution/"
 click 2 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
 click 22 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
+
 ```
 
 ```mermaid
@@ -33,6 +34,5 @@ subgraph 统计推断
 1-->区间估计
 假设检验
 end
-
 ```
 
