@@ -32,10 +32,12 @@ graph TD;
 subgraph 统计推断
 1[参数估计]-->1a[点估计]
 1-->1b[区间估计]
-2[假设检验]-->2a[引入]
+2[假设检验]-->2a[t检验]
 end
 click 1a "https://ysz.asia/2024/10/10/interval%20estimation/"
 click 1b "https://ysz.asia/2024/10/10/interval%20estimation/"
+click 2 "https://ysz.asia/2024/04/04/hypothesis%20testing/"
+
 
 ```
 
