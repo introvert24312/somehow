@@ -30,9 +30,12 @@ click 22 "https://ysz.asia/2024/03/24/Normal%20Distribution/"
 ```mermaid
 graph TD;
 subgraph 统计推断
-1[参数估计]-->点估计
-1-->区间估计
-假设检验
+1[参数估计]-->1a[点估计]
+1-->1b[区间估计]
+2[假设检验]-->2a[引入]
 end
+click 1a "https://ysz.asia/2024/10/10/interval%20estimation/"
+click 1b "https://ysz.asia/2024/10/10/interval%20estimation/"
+
 ```
 

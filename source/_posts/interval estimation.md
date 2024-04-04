@@ -1,6 +1,6 @@
 ---
 title: 区间估计
-date: 2024-10-10 12:50:00
+date: 2024-4-3 12:50:00
 tags: 统计学
 categories: 卫生统计学
 mathjax: true
@@ -32,7 +32,7 @@ mathjax: true
 
 
 
-_一些t分布的理论基础….._
+__一些t分布的理论基础…..__
 
 $$
 t=\frac{\bar{X}-\mu}{S\overline{X}}\sim t\text{ 分布}
@@ -48,4 +48,21 @@ _于是_
 
 $$
 -t_{a/2,\nu}<\frac{\bar{X}-\mu}{S\overline{x}}<t_{a/2,\nu}
+$$
+__一些z分布的理论基础…..__
+
+$$
+z=\frac{\bar{X}-\mu}{\sigma}\sim z\text{ 分布}
+$$
+
+_尽管$t$可以在$(-\infty,\infty)$$取值，但是，在(1-α)的场合下，$ z $的数值满足_
+
+$$
+一z_{a/2,v}<z<z_{a/2,\nu}
+$$
+
+_于是_
+
+$$
+-z_{a/2}<\frac{\bar{X}-\mu}{\sigma}<z_{a/2}
 $$
