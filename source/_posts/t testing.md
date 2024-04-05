@@ -1,6 +1,6 @@
 ---
 title: t检验
-date: 2024-4-5 13:50:00
+date: 2024-4-5 1:50:00
 tags: 统计学
 categories: 卫生统计学
 mathjax: true
