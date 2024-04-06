@@ -34,13 +34,13 @@ subgraph 统计推断
 1-->1b[区间估计]
 2[假设检验]-->|比较2小样本间的平均数|2a[t检验]
 2[假设检验]-->|若比较3者以上平均数|2b[ANOVA]
-2-->|比较分类数据间的关系|卡方检验
+2-->|比较分类数据间的关系|2c[卡方检验]
 end
 click 1a "https://ysz.asia/2024/10/10/interval%20estimation/"
 click 1b "https://ysz.asia/2024/10/10/interval%20estimation/"
 click 2 "https://ysz.asia/2024/04/04/hypothesis%20testing/"
 click 2a "https://ysz.asia/2024/04/05/t%20testing/"
-
+click 2c "https://ysz.asia/2024/04/06/chi%20square%20test/"
 ```
 
 ```mermaid
