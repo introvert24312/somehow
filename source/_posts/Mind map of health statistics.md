@@ -1,6 +1,6 @@
 ---
 title: 卫生统计学思维导图
-date: 2024-10-10 12:50:00
+date: 2024-8-10 12:50:00
 tags: 统计学
 categories: 卫生统计学
 mathjax: true
