@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "github-fork-ribbon-css": "^0.2.3",
-    "hexo": "^7.1.1",
+    "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-fold": "^1.0.5",
