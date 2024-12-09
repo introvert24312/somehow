@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: (￣▽￣)ノ
-subtitle: ''
-description: ''
-keywords:
-author: YSZ
+title: ノ(￣▽￣)ノ
+subtitle: '是我'
+description: '是你嘛'
+keywords: 
+author: 这是一个记录爱情的小角落
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -31,7 +31,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -115,16 +115,17 @@ symbols_count_time:
   wpm: 200
   suffix: "mins."
 
-# hexo-tag-cloud
-tag_cloud:
-    textFont: Trebuchet MS, Helvetica
-    textColor: '#333'
-    textHeight: 25
-    outlineColor: '#E2E1D1'
-    maxSpeed: 0.1
+
 # mermaid chart
 mermaid: ## mermaid url https://github.com/knsv/mermaid
   enable: true  # default true
   version: "7.1.2" # default v7.1.2
   options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
+
+# Search 
+search:
+  path: ./public/search.xml
+  field: post
+  format: html
+  limit: 10000
