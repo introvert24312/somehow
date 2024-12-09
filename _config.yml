@@ -102,7 +102,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:introvert24312/introvert24312.github.io.git
+  repo: git@github.com:introvert24312/patronum.github.io.git
   branch: master
 
 symbols_count_time:
