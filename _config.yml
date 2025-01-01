@@ -4,16 +4,16 @@
 
 # Site
 title: ノ(￣▽￣)ノ
-subtitle: '是我'
-description: '是你嘛'
+subtitle: '是你嘛～'
+description: '是我～'
 keywords: 
-author: 这是一个记录爱情的小角落
+author: 这是一个安全的角落
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lanjing.site
+url: https://patronum.uno
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
