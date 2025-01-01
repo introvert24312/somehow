@@ -4,10 +4,10 @@
 
 # Site
 title: ノ(￣▽￣)ノ
-subtitle: '是你嘛～'
-description: '是我～'
+subtitle: '是我～'
+description: '是你嘛'
 keywords: 
-author: 这是一个安全的角落
+author: 这是一个安全的小角落
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -102,7 +102,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:introvert24312/patronum.github.io.git
+  repo: git@github.com:introvert24312/somehow.github.io.git
   branch: master
 
 symbols_count_time:
